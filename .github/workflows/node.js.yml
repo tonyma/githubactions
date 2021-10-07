@@ -23,13 +23,21 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version}}
-    - run: npm install
-    - name: Hello World
+    - name: Container action
       env:
         MY_VAR: Hi there! My name is
         FIRST_NAME: Tony
         LAST_NAME: MA
       uses: tonyma/github-container-action@main
+      with:
+        who-to-greet: Tony Ma 2
+    - run: npm install
+    - name: Javascript action
+      env:
+        MY_VAR: Hi there! My name is
+        FIRST_NAME: Tony
+        LAST_NAME: MA
+      uses: tonyma/githubaction2@main
       with:
         who-to-greet: Tony Ma 2
     - run: npm ci
