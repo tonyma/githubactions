@@ -1,0 +1,22 @@
+{
+  "name": "github-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyma/githubactions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyma/githubactions/issues"
+  },
+  "homepage": "https://github.com/tonyma/githubactions#readme",
+  "dependencies": {
+    "mocha": "^9.1.2"
+  }
+}
