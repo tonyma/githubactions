@@ -8,10 +8,11 @@ on:
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
+    name: build step
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
+        os: [macos-latest, windows-latest, ubunto-latest]
         node-version: [10.x, 12.x, 14.x, 16.x]
 
     steps:
