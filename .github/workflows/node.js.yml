@@ -23,7 +23,7 @@ jobs:
     # - name: Hello World
     #   uses: tonyma/githubaction2@v3
     #   with:
-        who-to-greet: Tony Ma
+        # who-to-greet: Tony Ma
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
