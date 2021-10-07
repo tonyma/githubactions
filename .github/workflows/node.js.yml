@@ -9,14 +9,12 @@ on:
 jobs:
   build:
     name: build step
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        os: [macos-latest, windows-latest, ubuntu-latest]
         node-version: [12.x, 14.x]
         include:
           - node-version: 16
-            os: macos-latest
             experimental: true
 
     steps:
