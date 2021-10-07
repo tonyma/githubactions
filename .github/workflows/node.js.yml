@@ -31,7 +31,7 @@ jobs:
         MY_VAR: Hi there! My name is
         FIRST_NAME: Tony
         LAST_NAME: MA
-      uses: tonyma/githubaction2@main
+      uses: tonyma/github-container-action@main
       with:
         who-to-greet: Tony Ma 2
     - run: npm ci
