@@ -16,6 +16,8 @@ jobs:
         include:
           - node-version: 16
             experimental: true
+        exclude:
+          - node-version: 12.x
 
     steps:
     - uses: actions/checkout@v2
