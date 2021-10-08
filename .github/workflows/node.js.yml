@@ -39,7 +39,7 @@ jobs:
         LAST_NAME: MA
       uses: tonyma/githubaction2@main
       with:
-        who-to-greet: Tony Ma 2
+        who-to-greet: Tony Ma 3
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
