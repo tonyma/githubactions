@@ -73,7 +73,7 @@ jobs:
 
   build3:
     needs: build
-    name: build step 2
+    name: build step 3
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -107,7 +107,7 @@ jobs:
 
   build4:
     needs: [build2, build3]
-    name: build step 2
+    name: build step 4
     runs-on: ubuntu-latest
     strategy:
       matrix:
