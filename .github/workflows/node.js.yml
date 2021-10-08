@@ -31,7 +31,6 @@ jobs:
       uses: tonyma/github-container-action@main
       with:
         who-to-greet: Tony Ma 2
-    - run: npm install
     - name: Javascript action
       env:
         MY_VAR: Hi there! My name is
