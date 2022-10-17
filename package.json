@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/tonyma/githubactions#readme",
   "dependencies": {
-    "mocha": "^9.1.2"
+    "mocha": "^10.1.0"
   }
 }
